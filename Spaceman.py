@@ -1,3 +1,10 @@
+"""
+Метод count_dynasty_experience класса DynastyExperienceCounter,
+который посчитает необходимый стаж космонавта и всех его предков.
+Решение рекурсивный обход дерева: в каждом следующем уровне рекурсии
+обрабатываются узлы, хранящиеся в атрибутах father и mother текущего узла.
+"""
+
 from __future__ import annotations
 from typing import Optional
 
