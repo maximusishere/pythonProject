@@ -3,7 +3,6 @@ Variation of dynamic programming usage in python
 """
 from pprint import pprint
 
-
 def backpack_problem_solution(
         tools: list[tuple[str, int, int]], capacity: int
 ) -> str:
