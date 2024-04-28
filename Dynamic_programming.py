@@ -1,5 +1,6 @@
 """
-Variation of dynamic programming usage in python
+Variation of dynamic programming usage in python.
+Backpack problem solution.
 """
 from pprint import pprint
 
