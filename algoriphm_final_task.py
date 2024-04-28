@@ -1,8 +1,5 @@
 # ID посылки 113149185
 
-short_command = str(input())
-
-
 def encrypted_instruction(command) -> str:
     """
     Функция принимает строку содержащую зашифрованную инструкцию.
@@ -26,4 +23,7 @@ def encrypted_instruction(command) -> str:
 
     return ''.join(stack)
 
-print(encrypted_instruction(short_command))
+
+if __name__ == "__main__":
+    command = str(input())
+    print(encrypted_instruction(command))
