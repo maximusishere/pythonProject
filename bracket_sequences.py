@@ -1,8 +1,9 @@
-s=list(input().split())
+a = '({[]})'
+s = list(a)
 
 
 def right_bracket(s):
-    st=[]
+    st = []
     for i in range(len(s)):
         if s[i]=='(' or s[i]=='{' or s[i]=='[':
             st.append(s[i])
@@ -20,4 +21,4 @@ def right_bracket(s):
         return False
 
 if __name__ == '__main__':
-    right_bracket(s)
+     print(right_bracket(s))
