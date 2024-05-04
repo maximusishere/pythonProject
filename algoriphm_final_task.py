@@ -1,4 +1,4 @@
-# ID посылки 113149185
+# ID посылки 113495762
 
 def encrypted_instruction(command) -> str:
     """
@@ -23,10 +23,7 @@ def encrypted_instruction(command) -> str:
 
     return ''.join(stack)
 
-if __name__ == "__main__":
-    command = '2[abc]3[cd]ef'
-    print(encrypted_instruction(command))
 
-# if __name__ == "__main__":
-#     command = str(input())
-#     print(encrypted_instruction(command))
+if __name__ == "__main__":
+    command = str(input())
+    print(encrypted_instruction(command))
