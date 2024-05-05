@@ -1,4 +1,4 @@
-# ID посылки 113495762
+# ID посылки 113495762 и еще немного
 
 def encrypted_instruction(command) -> str:
     """
